@@ -14,7 +14,7 @@ from inference_sdk import InferenceHTTPClient
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="Virtual Clothing Try-On",
+    page_title="Virtual Try-On",
     page_icon="👕",
     layout="wide"
 )
@@ -81,7 +81,7 @@ def image_to_base64(image_path):
 
 # --- Main Application Logic ---
 
-st.title("👕 Virtual Clothing Try-On")
+st.title("👕 Virtual Try-On")
 st.markdown("Upload a photo, choose an item of clothing, and describe what you want to change it to!")
 
 # --- Model and Client Initialization ---
